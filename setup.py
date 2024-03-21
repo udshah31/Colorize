@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 
 def get_description():
-    return "Deep Learning library for colorizing and restoring old images and video"
+    return "Deep Learning library for colorizing and restoring old images"
 
 
 # def get_long_description():
@@ -19,7 +19,7 @@ setup(
     name="DeOldify",
     version="0.0.1",
     packages=find_packages(exclude=["tests"]),
-    url="https://github.com/jantic/DeOldify",
+    url="",
     license="MIT License",
     description=get_description(),
     # long_description=get_long_description(),
